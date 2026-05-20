@@ -19,4 +19,3 @@ Feel free to submit issues and enhancement requests!
 
 Pankaj - [pankajthakur.dev01@gmail.com](mailto:pankajthakur.dev01@gmail.com)
 
-Project Link: (https://github.com/pankaj0160/pankaj-portfolio)
