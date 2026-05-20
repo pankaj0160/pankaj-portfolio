@@ -62,7 +62,7 @@ const Hero = () => {
       ></motion.div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -75,8 +75,9 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
             >
-              Hi, I'm{' '}
-              <span className="bg-gradient-to-r from-blue-400 to-purple-500 dark:from-blue-400 dark:to-purple-500 from-blue-600 to-purple-700 bg-clip-text text-transparent">
+              Hi, 
+              I'm{' '}
+              <span className="bg-gradient-to-r from-blue-400 to-purple-500 dark:from-blue-400 dark:to-purple-500 from-blue-600 to-purple-700 bg-clip-text text-transparent whitespace-nowrap">
                 {personalInfo.name}
               </span>
             </motion.h1>
@@ -155,7 +156,7 @@ const Hero = () => {
             className="relative"
           >
             <motion.div
-              className="relative w-96 h-96 md:w-[420px] md:h-[420px] mx-auto"
+              className="relative w-96 h-96 md:w-[400px] md:h-[400px] mx-auto lg:ml-8"
               animate={{ y: [0, -15, 0] }}
               transition={{ duration: 4, repeat: Infinity }}
             >

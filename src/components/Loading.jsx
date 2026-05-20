@@ -42,7 +42,7 @@ const Loading = ({ onComplete }) => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-4"
         >
-          Pankaj
+          Pankaj Thakur
         </motion.h2>
         <div className="w-64 bg-slate-700 rounded-full h-2 mb-4">
           <motion.div
