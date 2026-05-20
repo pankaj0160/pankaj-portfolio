@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 dark:from-blue-400 dark:to-purple-500 from-blue-600 to-purple-700 bg-clip-text text-transparent mb-4">
-              Pankaj
+              Pankaj Thakur
             </h3>
             <p className="dark:text-slate-400 text-slate-600 mb-6">
               AI & Data Science Student passionate about building scalable web applications and AI-powered solutions.
@@ -80,7 +80,7 @@ const Footer = () => {
 
         <div className="dark:border-slate-700 border-slate-300 border-t mt-8 pt-8 text-center">
           <p className="dark:text-slate-400 text-slate-600 flex items-center justify-center">
-            Made with <FaHeart className="text-red-500 mx-2" /> by Pankaj • © 2026 All rights reserved
+            Made with <FaHeart className="text-red-500 mx-2" /> by Pankaj Thakur • © 2026 All rights reserved
           </p>
         </div>
       </div>

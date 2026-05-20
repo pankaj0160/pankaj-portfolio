@@ -70,7 +70,7 @@ const Hero = () => {
             className="text-center lg:text-left"
           >
             <motion.h1
-              className="text-5xl md:text-7xl font-bold mb-6 dark:text-white text-slate-900"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 dark:text-white text-slate-900 leading-tight"
               variants={itemVariants}
               initial="hidden"
               animate="visible"
@@ -156,7 +156,7 @@ const Hero = () => {
             className="relative"
           >
             <motion.div
-              className="relative w-96 h-96 md:w-[400px] md:h-[400px] mx-auto lg:ml-8"
+              className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-[400px] md:h-[400px] mx-auto lg:ml-8"
               animate={{ y: [0, -15, 0] }}
               transition={{ duration: 4, repeat: Infinity }}
             >
