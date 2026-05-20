@@ -155,7 +155,7 @@ const Hero = () => {
             className="relative"
           >
             <motion.div
-              className="relative w-80 h-80 mx-auto"
+              className="relative w-96 h-96 md:w-[420px] md:h-[420px] mx-auto"
               animate={{ y: [0, -15, 0] }}
               transition={{ duration: 4, repeat: Infinity }}
             >
@@ -165,7 +165,7 @@ const Hero = () => {
                 transition={{ duration: 4, repeat: Infinity }}
               ></motion.div>
               <motion.div
-                className="relative w-full h-full dark:bg-gradient-to-br dark:from-slate-800 dark:to-slate-900 bg-gradient-to-br from-slate-100 to-slate-200 dark:border-slate-700 border-slate-300 rounded-3xl border-2 flex items-center justify-center overflow-hidden shadow-2xl dark:shadow-blue-500/20 shadow-slate-300/20"
+                className="relative w-full h-full dark:bg-gradient-to-br dark:from-slate-800 dark:to-slate-900 bg-gradient-to-br from-slate-100 to-slate-200 dark:border-slate-700 border-slate-300 rounded-full border-4 overflow-hidden shadow-2xl dark:shadow-blue-500/20 shadow-slate-300/20"
                 whileHover={{
                   scale: 1.05,
                   boxShadow: "0 0 40px rgba(59, 130, 246, 0.3)"

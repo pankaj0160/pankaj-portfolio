@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 import Button from './Button';
-import ThemeToggle from './ThemeToggle';
 import { navLinks, socialLinks } from '../data/portfolio';
 
 const Navbar = () => {
@@ -43,7 +42,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              Pankaj
+              Pankaj Thakur
             </span>
           </div>
 
@@ -68,11 +67,9 @@ const Navbar = () => {
             <Button onClick={() => window.open(socialLinks.resume, '_blank')}>
               Download Resume
             </Button>
-            <ThemeToggle />
           </div>
 
           <div className="md:hidden flex items-center gap-2">
-            <ThemeToggle />
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-slate-300 dark:text-slate-300 hover:text-white dark:hover:text-white p-2"

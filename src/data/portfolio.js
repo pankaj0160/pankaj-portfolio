@@ -67,6 +67,7 @@ export const projects = [
       "Multi-document support"
     ],
     techStack: ["Python", "Streamlit", "LangChain", "ChromaDB", "Mistral-AI", "HuggingFace Embeddings", "pyPDF"],
+    liveDemo: "https://github.com/pankaj0160/docmind-ai-rag",
     github: "https://github.com/pankaj0160/docmind-ai-rag"
   },
 ];
@@ -82,12 +83,12 @@ export const certifications = [
   {
     title: "Data Structures & Algorithms – PW Skills",
     description: "Covered arrays, trees, graphs, recursion, hashing, and dynamic programming using C++.",
-    link: "#"
+    link: "https://cdn.pwskills.com/learn/certificates/8f46db3a-5ba2-4783-a69a-8de1727a9384.pdf"
   },
   {
     title: "Node.js, Express, MongoDB & More – Udemy",
     description: "Learned backend development, REST APIs, authentication, and database management.",
-    link: "#"
+    link: "https://www.udemy.com/certificate/UC-dcb0bae9-f7d8-4fd9-be03-debb55df0e22/"
   }
 ];
 
@@ -96,7 +97,8 @@ export const timeline = [
   { year: "2024", event: "Learned MERN Stack" },
   { year: "2024", event: "Built SmartPark" },
   { year: "2025", event: "Started Generative AI" },
-  { year: "2026", event: "Preparing for placements" }
+  { year: "2026", event: "Gate CSE 2026 Qualified" },
+  { year: "2026 - current", event: "Building Real World Projects" }
 ];
 
 export const navLinks = [
