@@ -4,7 +4,7 @@ A modern, responsive developer portfolio showcasing AI & Data Science skills, fu
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://pankaj.dev)
+[View Portfolio](https://pankaj-portfolio-blue.vercel.app/)
 
 
 ## 📄 License
@@ -19,4 +19,4 @@ Feel free to submit issues and enhancement requests!
 
 Pankaj - [pankajthakur.dev01@gmail.com](mailto:pankajthakur.dev01@gmail.com)
 
-Project Link: [https://github.com/your-username/portfolio](https://github.com/your-username/portfolio)
+Project Link: (https://github.com/pankaj0160/pankaj-portfolio)
