@@ -67,7 +67,7 @@ export const projects = [
       "Multi-document support"
     ],
     techStack: ["Python", "Streamlit", "LangChain", "ChromaDB", "Mistral-AI", "HuggingFace Embeddings", "pyPDF"],
-    liveDemo: "https://github.com/pankaj0160/docmind-ai-rag",
+    liveDemo: "https://pt-docmind-ai-rag.streamlit.app/",
     github: "https://github.com/pankaj0160/docmind-ai-rag"
   },
 ];
