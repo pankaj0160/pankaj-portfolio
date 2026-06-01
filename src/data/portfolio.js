@@ -76,7 +76,7 @@ export const achievements = [
   { title: "Qualified GATE CSE 2026", value: "Score - 426" },
   { title: "Solved 120+ DSA problems on LeetCode", value: "120+" },
   { title: "Maintained 8.3 CGPA", value: "8.3" },
-  { title: "Built Full Stack + GenAI Projects", value: "3+" }
+  { title: "Built Full Stack + GenAI Projects", value: "4+" }
 ];
 
 export const certifications = [
