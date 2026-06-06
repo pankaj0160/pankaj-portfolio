@@ -8,8 +8,8 @@ const About = () => {
   const stats = [
     { icon: FaCode, value: achievements[1].value, label: 'DSA Problems' },
     { icon: FaTrophy, value: achievements[0].value, label: 'GATE CSE 2026' },
-    { icon: FaGraduationCap, value: achievements[2].value, label: 'CGPA' },
-    { icon: FaRocket, value: achievements[3].value, label: 'Projects' }
+    { icon: FaGraduationCap, value: achievements[3].value, label: 'CGPA' },
+    { icon: FaRocket, value: achievements[2].value, label: 'Projects' }
   ];
 
   return (

@@ -96,6 +96,19 @@ export const skills = {
     "Render",
     "MongoDB Atlas",
     "Streamlit Cloud"
+  ],
+
+  coreCS: [
+    "Data Structures & Algorithms",
+    "Object-Oriented Programming",
+    "Database Management Systems",
+    "Operating Systems",
+    "Computer Networks",
+    "Software Engineering",
+    "System Design Fundamentals",
+    "REST API Design",
+    "Authentication & Authorization",
+    "Concurrency Control"
   ]
 };
 export const projects = [
@@ -206,26 +219,27 @@ export const projects = [
 export const achievements = [
   {
     title: "GATE CSE 2026",
-    value: "AIR 14,658",
-    description: "Top 7.3% among 200,000+ candidates"
+    value: "426",
+    suffix: "",
+    description: "GATE Score"
   },
-
   {
     title: "LeetCode",
-    value: "120+",
-    description: "Problems solved across DSA topics"
+    value: "120",
+    suffix: "+",
+    description: "Problems Solved"
   },
-
   {
     title: "Production AI Projects",
-    value: "3+",
-    description: "Built and deployed full-stack AI systems"
+    value: "3",
+    suffix: "+",
+    description: "Deployed Projects"
   },
-
   {
     title: "CGPA",
-    value: "8.3 / 10",
-    description: "AI & Data Science"
+    value: "8.3",
+    suffix: "",
+    description: "Current CGPA"
   }
 ];
 export const certifications = [
