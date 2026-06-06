@@ -7,7 +7,7 @@ import Skills from './sections/Skills';
 import Projects from './sections/Projects';
 import Achievements from './sections/Achievements';
 import Certifications from './sections/Certifications';
-import Timeline from './sections/Timeline';
+
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 import BackToTop from './components/BackToTop';
@@ -36,7 +36,7 @@ function App() {
           <Projects />
           <Achievements />
           <Certifications />
-          <Timeline />
+         
           <Contact />
         </main>
         <Footer />

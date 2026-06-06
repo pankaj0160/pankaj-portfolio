@@ -40,13 +40,13 @@ const Skills = () => {
     {
       title: 'Core CS',
       icon: FaBrain,
-      skills: skills.coreCS,
+      skills: skills.coreCS || [],
       icons: [null, null, null, null]
     },
     {
       title: 'AI/GenAI',
       icon: FaRobot,
-      skills: skills.aiGenAI,
+      skills: skills.ai || skills.aiGenAI || [],
       icons: [null, null, null]
     }
   ];
@@ -87,7 +87,7 @@ const Skills = () => {
                   <h3 className="text-xl font-semibold dark:text-white text-slate-900">{category.title}</h3>
                 </div>
                 <div className="space-y-4">
-                  {category.skills.map((skill, skillIndex) => {
+                  {(category.skills || []).map((skill, skillIndex) => {
                     const IconComponent = category.icons[skillIndex];
                     return (
                       <motion.div
