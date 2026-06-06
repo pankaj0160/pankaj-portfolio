@@ -145,7 +145,7 @@ export const projects = [
     ],
 
     github: "https://github.com/pankaj0160/ResearchOS",
-    liveDemo: "https://github.com/pankaj0160/ResearchOS"
+    liveDemo: "https://research-os-kappa.vercel.app/"
   },
 
   {
@@ -225,13 +225,13 @@ export const achievements = [
   },
   {
     title: "LeetCode",
-    value: "120",
+    value: "120+",
     suffix: "+",
     description: "Problems Solved"
   },
   {
     title: "Production AI Projects",
-    value: "3",
+    value: "3+",
     suffix: "+",
     description: "Deployed Projects"
   },
