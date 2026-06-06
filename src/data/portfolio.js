@@ -1,21 +1,26 @@
 export const personalInfo = {
   name: "Pankaj Thakur",
+  role: "AI Engineer & Full Stack Developer",
   taglines: [
-    "AI & Data Science Student",
+    "AI Engineer",
     "Full Stack Developer",
     "Backend Engineer",
-    "GenAI Enthusiast"
+    "GenAI & RAG Developer"
   ],
+
   email: "pankajthakur.dev01@gmail.com",
   phone: "+91 8964056215",
   location: "Gwalior, Madhya Pradesh, India",
+
   education: {
-    institution: "Madhav Institute of Technology & Science",
-    degree: "B.Tech in AI & Data Science",
+    institution: "Madhav Institute of Technology & Science (MITS), Gwalior",
+    degree: "B.Tech in Artificial Intelligence & Data Science",
     duration: "2023 – 2027",
-    cgpa: "8.3/10"
+    cgpa: "8.3 / 10"
   },
-  summary: "B.Tech student in AI & Data Science with experience in full-stack development, backend engineering, and Generative AI applications. Skilled in Python, C++, JavaScript, FastAPI, React.js, SQL, and REST APIs with hands-on experience building scalable web applications and backend systems."
+
+  summary:
+    "AI & Full-Stack Developer pursuing B.Tech in AI & Data Science. Experienced in building production-grade AI systems, RAG pipelines, multi-agent applications, and scalable full-stack products using LangChain, LangGraph, FastAPI, React.js, and Node.js. Qualified GATE CSE 2026 (Top 7.3% nationally) and actively seeking AI Engineer / Software Development internships."
 };
 
 export const socialLinks = {
@@ -26,80 +31,223 @@ export const socialLinks = {
 };
 
 export const skills = {
-  languages: ["Python", "C++", "JavaScript", "SQL", "HTML/CSS"],
-  frontend: ["React.js", "Tailwind CSS"],
-  backend: ["Node.js", "Express.js", "FastAPI", "REST APIs"],
-  databases: ["MongoDB", "MySQL"],
-  tools: ["Git", "GitHub", "Postman", "VS Code"],
-  coreCS: ["DSA", "DBMS", "OOPs", "Operating Systems"],
-  aiGenAI: ["NLP", "RAG", "Generative AI"]
-};
+  languages: [
+    "Python",
+    "C++",
+    "JavaScript",
+    "SQL",
+    "HTML5",
+    "CSS3"
+  ],
 
+  frontend: [
+    "React.js",
+    "Vite",
+    "Tailwind CSS",
+    "React Router DOM",
+    "Streamlit",
+    "Leaflet"
+  ],
+
+  backend: [
+    "Node.js",
+    "Express.js",
+    "FastAPI",
+    "REST APIs",
+    "JWT Authentication",
+    "RBAC",
+    "Zod"
+  ],
+
+  databases: [
+    "MongoDB Atlas",
+    "MySQL",
+    "SQLite",
+    "ChromaDB"
+  ],
+
+  ai: [
+    "LangChain",
+    "LangGraph",
+    "RAG",
+    "Agentic AI",
+    "Multi-Agent Systems",
+    "Prompt Engineering",
+    "NLP",
+    "OpenAI Whisper",
+    "Groq",
+    "HuggingFace Embeddings"
+  ],
+
+  tools: [
+    "Git",
+    "GitHub",
+    "Docker",
+    "Postman",
+    "Socket.io",
+    "Razorpay",
+    "Google OAuth",
+    "FFmpeg",
+    "Tavily API"
+  ],
+
+  deployment: [
+    "Vercel",
+    "Render",
+    "MongoDB Atlas",
+    "Streamlit Cloud"
+  ]
+};
 export const projects = [
   {
-    title: "SmartPark — Intelligent Parking Management System",
-    description: "Developed a full-stack parking management system with automated slot booking, reservation tracking, and real-time parking availability management.",
-    features: [
-      "Automated slot booking",
-      "Real-time availability",
-      "Reservation tracking",
-      "Authentication workflows",
-      "REST APIs",
-      "Payment workflows",
-      "Role-based access control",
-      "Admin dashboard",
-      "Responsive UI"
+    title: "ResearchOS — Multi-Modal AI Research Platform",
+    featured: true,
+
+    description:
+      "A production-grade AI research platform integrating Topic Research, PDF Chat, News Intelligence, and AI Dashboard modules with streaming AI workflows and multi-agent systems.",
+
+    techStack: [
+      "FastAPI",
+      "LangGraph",
+      "LangChain",
+      "Groq",
+      "React.js",
+      "ChromaDB",
+      "SQLite",
+      "JWT",
+      "SSE",
+      "Tavily API"
     ],
-    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
+
+    features: [
+      "4 AI-powered modules",
+      "21 REST API routes",
+      "Streaming SSE responses",
+      "JWT-secured authentication",
+      "Multi-agent research pipeline",
+      "News intelligence system",
+      "PDF RAG chatbot",
+      "Dashboard AI assistant",
+      "Session-isolated vector databases"
+    ],
+
+    github: "https://github.com/pankaj0160/ResearchOS",
+    liveDemo: "https://github.com/pankaj0160/ResearchOS"
+  },
+
+  {
+    title: "Summly — AI Meeting Intelligence Platform",
+    featured: true,
+
+    description:
+      "AI-powered meeting intelligence system that transcribes, analyzes, summarizes, and enables semantic search over meeting recordings.",
+
+    techStack: [
+      "FastAPI",
+      "LangGraph",
+      "Groq",
+      "OpenAI Whisper",
+      "ChromaDB",
+      "FFmpeg",
+      "SQLite",
+      "React.js"
+    ],
+
+    features: [
+      "Audio transcription",
+      "Meeting summarization",
+      "Action item extraction",
+      "Decision tracking",
+      "Topic tagging",
+      "RAG-based Q&A",
+      "YouTube ingestion",
+      "Email generation",
+      "JWT authentication"
+    ],
+
+    github: "https://github.com/pankaj0160/AI-meeting-Assistant",
+    liveDemo: "https://github.com/pankaj0160/AI-meeting-Assistant"
+  },
+
+  {
+    title: "SmartPark — Full-Stack Parking SaaS",
+    featured: true,
+
+    description:
+      "Production-ready parking management platform with smart recommendations, real-time booking, online payments, and role-based access control.",
+
+    techStack: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB Atlas",
+      "Socket.io",
+      "Razorpay",
+      "JWT",
+      "Leaflet"
+    ],
+
+    features: [
+      "Driver, Owner & Admin roles",
+      "Real-time parking availability",
+      "Online payments",
+      "Google OAuth",
+      "Geo-based recommendations",
+      "Booking analytics",
+      "Socket.io updates",
+      "Secure JWT authentication",
+      "MongoDB transactions"
+    ],
+
     liveDemo: "https://smart-park-client.vercel.app/",
     github: "https://github.com/pankaj0160/SmartPark"
-  },
-  {
-    title: "DocMind AI — AI PDF Chatbot",
-    description: "Built an AI-powered chatbot that allows users to upload PDF documents and ask questions, using RAG (Retrieval-Augmented Generation) for accurate responses.",
-    features: [
-      "PDF upload and processing",
-      "Natural language querying",
-      "RAG-based answer generation",
-      "Vector database integration",
-      "Real-time chat interface",
-      "Document summarization",
-      "Multi-document support"
-    ],
-    techStack: ["Python", "Streamlit", "LangChain", "ChromaDB", "Mistral-AI", "HuggingFace Embeddings", "pyPDF"],
-    liveDemo: "https://pt-docmind-ai-rag.streamlit.app/",
-    github: "https://github.com/pankaj0160/docmind-ai-rag"
-  },
+  }
 ];
-
 export const achievements = [
-  { title: "Qualified GATE CSE 2026", value: "Score - 426" },
-  { title: "Solved 120+ DSA problems on LeetCode", value: "120+" },
-  { title: "Maintained 8.3 CGPA", value: "8.3" },
-  { title: "Built Full Stack + GenAI Projects", value: "4+" }
-];
+  {
+    title: "GATE CSE 2026",
+    value: "AIR 14,658",
+    description: "Top 7.3% among 200,000+ candidates"
+  },
 
+  {
+    title: "LeetCode",
+    value: "120+",
+    description: "Problems solved across DSA topics"
+  },
+
+  {
+    title: "Production AI Projects",
+    value: "3+",
+    description: "Built and deployed full-stack AI systems"
+  },
+
+  {
+    title: "CGPA",
+    value: "8.3 / 10",
+    description: "AI & Data Science"
+  }
+];
 export const certifications = [
   {
-    title: "Data Structures & Algorithms – PW Skills",
-    description: "Covered arrays, trees, graphs, recursion, hashing, and dynamic programming using C++.",
-    link: "https://cdn.pwskills.com/learn/certificates/8f46db3a-5ba2-4783-a69a-8de1727a9384.pdf"
+    title: "DSA & Problem Solving",
+    issuer: "PW Skills",
+    description:
+      "Data Structures, Algorithms, Problem Solving, Time & Space Complexity.",
+    link:
+      "https://cdn.pwskills.com/learn/certificates/8f46db3a-5ba2-4783-a69a-8de1727a9384.pdf"
   },
+
   {
-    title: "Node.js, Express, MongoDB & More – Udemy",
-    description: "Learned backend development, REST APIs, authentication, and database management.",
-    link: "https://www.udemy.com/certificate/UC-dcb0bae9-f7d8-4fd9-be03-debb55df0e22/"
+    title: "Backend Development (Node.js & Express.js)",
+    issuer: "Udemy",
+    description:
+      "REST APIs, Authentication, Authorization, Middleware, JWT Security.",
+    link:
+      "https://www.udemy.com/certificate/UC-dcb0bae9-f7d8-4fd9-be03-debb55df0e22/"
   }
 ];
 
-export const timeline = [
-  { year: "2023", event: "Started learning DSA" },
-  { year: "2024", event: "Learned MERN Stack" },
-  { year: "2024", event: "Built SmartPark" },
-  { year: "2025", event: "Started Generative AI" },
-  { year: "2026", event: "Gate CSE 2026 Qualified" },
-  { year: "2026 - current", event: "Building Real World Projects" }
-];
 
 export const navLinks = [
   { name: "Home", href: "#home" },
